@@ -1,0 +1,22 @@
+.form-label {
+	display: block;
+}
+
+.form-input {
+	font-family: $sans;
+	font-size: 16px;
+	display: block;
+	border: 1px solid map-get($default, "base");
+
+	&.success {
+		border-color: map-get($success, "base");
+	}
+
+	&.warning {
+		border-color: map-get($warning, "base");
+	}
+
+	&.error {
+		border-color: map-get($error, "base");
+	}
+}
